@@ -1,0 +1,7 @@
+You are in a protected route :)
+<section class="row">
+  <form action="/protected/logout" method="post">
+    <input type="hidden" name="_csrf_token" value="<%= @csrf %>">
+    <input type="submit" value="Logout" />
+  </form>
+</section>

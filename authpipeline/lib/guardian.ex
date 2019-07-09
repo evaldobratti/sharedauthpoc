@@ -1,6 +1,6 @@
 defmodule IdentityWeb.Guardian do
 
-  use Guardian, otp_app: :identity
+  use Guardian, otp_app: :authpipeline
 
   def subject_for_token(_something1, _something2) do
     {:ok, "admin"}

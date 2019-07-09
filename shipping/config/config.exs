@@ -26,6 +26,6 @@ config :phoenix, :json_library, Jason
 # of this file so it overrides the configuration defined above.
 import_config "#{Mix.env()}.exs"
 
-config :identity, IdentityWeb.Guardian,
+config :authpipeline, IdentityWeb.Guardian,
        issuer: "authpoc_web",
        secret_key: "a secret"

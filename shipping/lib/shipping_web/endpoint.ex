@@ -44,4 +44,5 @@ defmodule ShippingWeb.Endpoint do
     signing_salt: "96KJ+kp9"
 
   plug ShippingWeb.Router
+
 end
